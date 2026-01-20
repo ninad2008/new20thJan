@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    border: 2px solid ;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.box {
+    border: 1px solid;
+    margin: 5px;
+    padding: 20px;
+    background-color: aqua;
+}

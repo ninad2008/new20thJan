@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    border: 2px solid ;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px;
+    
+}
+.box {
+    border: 1px solid;
+    margin: 5px;
+    padding: 20px;
+    background-color: aqua;
+}
